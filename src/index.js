@@ -1,9 +1,9 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 
-import App from "/src/components/app/app";
+import App from "components/app/app";
 import { ThemeProvider } from "styled-components";
-import { defaultTheme } from "./thems/default";
+import { defaultTheme } from "themes/default";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(

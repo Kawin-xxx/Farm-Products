@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "/src/components/ui/logo/logo";
-import Copyright from "/src/components/ui/сopyright/сopyright";
+import Logo from "components/ui/logo/logo";
+import Copyright from "components/ui/сopyright/сopyright";
 import "./style.css";
 
 // Обёртка для контента страниц

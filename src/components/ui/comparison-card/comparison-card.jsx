@@ -1,6 +1,6 @@
 import React from "react";
-import Title, { TitleSize } from "/src/components/ui/title/title";
-import { TitleLevel } from "/src/components/ui/title/title";
+import Title, { TitleSize } from "components/ui/title/title";
+import { TitleLevel } from "components/ui/title/title";
 import "./style.css";
 
 function ComparisonCard({ title, owner, isNegative, image, about }) {

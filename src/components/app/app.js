@@ -1,5 +1,5 @@
 import React from "react";
-import PageWrapper from "/src/components/layout/page-wrapper/page-wrapper";
+import PageWrapper from "components/layout/page-wrapper/page-wrapper";
 import { GlobalStyle } from "./styles";
 
 export default function App() {

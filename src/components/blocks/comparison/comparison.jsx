@@ -1,7 +1,7 @@
 import React from "react";
-import Title, { TitleSize } from "/src/components/ui/title/title";
-import ComparisonCard from "/src/components/ui/comparison-card/comparison-card";
-import Button from "/src/components/ui/button/button";
+import Title, { TitleSize } from "components/ui/title/title";
+import ComparisonCard from "components/ui/comparison-card/comparison-card";
+import Button from "components/ui/button/button";
 import { ComparisonListSection, ComparisonsList } from "./styles";
 
 function Comparison({ comparisons, level }) {
