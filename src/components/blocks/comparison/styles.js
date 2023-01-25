@@ -8,6 +8,6 @@ export const ComparisonListSection = styled(Section)`
 `;
 
 export const ComparisonsList = styled(Ul)`
-  margin-top: 64px;
+  margin-top: 55px;
   margin-bottom: 64px;
 `;

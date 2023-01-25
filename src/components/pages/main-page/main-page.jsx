@@ -3,7 +3,6 @@ import About from "components/blocks/about/about";
 import Comparison from "components/blocks/comparison/comparison";
 import comparisonList from "mocks/comparison";
 import { TitleLevel } from "components/ui/title/title";
-import "./style.css";
 
 function MainPage() {
   return (

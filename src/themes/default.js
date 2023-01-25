@@ -6,6 +6,8 @@ export const defaultTheme = {
   ColorNeganive: "#F8DDD7",
   ColorGreen: "#88AA4D",
   ColorRed: "#F75531",
+  ColorForBlockAbout: "#D8ECFE",
+  ColorBlue: "#C4E2FF",
 
   indent: "20px",
   fontFamily: '"Inter", "Arial", sans-serif',

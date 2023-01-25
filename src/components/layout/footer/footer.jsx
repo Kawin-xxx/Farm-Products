@@ -1,16 +1,15 @@
 import React from "react";
 import Logo from "components/ui/logo/logo";
 import Copyright from "components/ui/сopyright/сopyright";
-import "./style.css";
+import {StyledSectionFooter} from "./styles.js";
 
-// Обёртка для контента страниц
 function Footer() {
   return (
     <>
-      <footer className="footer">
+      <StyledSectionFooter>
         <Logo />
         <Copyright />
-      </footer>
+      </StyledSectionFooter>
     </>
   );
 }

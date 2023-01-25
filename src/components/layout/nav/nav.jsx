@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "components/ui/button/button";
-import "./style.css";
 
 function Nav() {
   return (

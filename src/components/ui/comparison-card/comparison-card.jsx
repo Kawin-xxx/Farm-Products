@@ -1,41 +1,31 @@
 import React from "react";
 import Title, { TitleSize } from "components/ui/title/title";
 import { TitleLevel } from "components/ui/title/title";
-import "./style.css";
+import { StyledComparisonCard, ComparisonHeader, Image, TitleWrapper, Owner, Text } from "./styles.js"
 
 function ComparisonCard({ title, owner, isNegative, image, about }) {
   return (
-    <section
-      className={`comparison-card ${
-        isNegative ? " comparison-card_negative" : ""
-      }`}
-    >
-      <header className="comparison-card__header">
-        <img
-          className="comparison-card__img"
+    <StyledComparisonCard isNegative={isNegative}>
+      <ComparisonHeader>
+        <Image
           width={56}
           height={56}
           src={image}
-          alt="Еда намного вкуснее"
+          alt="Причины."
         />
         <div>
-          <span
-            className={`comparison-card__owner ${
-              isNegative ? " comparison-card__owner_negative" : ""
-            }`}
-          >
+          <Owner isNegative={isNegative}>
             {owner}
-          </span>
+          </Owner>
           <Title level={TitleLevel.H3} size={TitleSize.SMALL}>
             {title}
           </Title>
         </div>
-      </header>
-      <p
-        className="comparison-card__text"
+      </ComparisonHeader>
+      <Text
         dangerouslySetInnerHTML={{ __html: about }}
       />
-    </section>
+    </StyledComparisonCard>
   );
 }
 
